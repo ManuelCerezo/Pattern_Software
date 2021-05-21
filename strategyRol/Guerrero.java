@@ -39,8 +39,8 @@ public class Guerrero implements Rol{
 	public void setDanio(int danio) {
 		this.danioBasico = danio;
 	}
-	public void getNombreRol() {
-		System.out.println("Esto es un Guerrero");
+	public String getNombreRol() {
+		return "Guerrero";
 	}
 	
 }

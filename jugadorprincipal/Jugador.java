@@ -5,6 +5,7 @@ import strategyRol.Rol;
 
 public interface Jugador {
 	public int getVida();
+	public void setRol(Rol a);
 	public Rol getRol();
 	public String getNombre();
 	public int getArmadura();

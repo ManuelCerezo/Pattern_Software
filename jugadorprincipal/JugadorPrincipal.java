@@ -39,7 +39,7 @@ public class JugadorPrincipal implements Jugador{
 		}else if(this.roljugador.getClass().equals(Asesino.class)) {
 			System.out.println("Has Robado un 10% de poder de Ataque a "+ h.getNombre());
 			System.out.println("El danio del Asesino incrementa a: "+this.roljugador.getPoder());
-			System.out.println("La vida del enemigo desciende a: "+h.getVida());
+			//System.out.println("La vida del enemigo desciende a: "+h.getVida());
 			
 			//Ataque Especial para Guerrero
 		}else if(this.roljugador.getClass().equals(Guerrero.class)){ //no tiene armadura.
@@ -66,12 +66,10 @@ public class JugadorPrincipal implements Jugador{
 	}
 
 	public int getArmadura() {
-		System.out.println("NO TIENES ARMADURA!");
 		return 0;
 	}
 
 	public void setArmadura(int armadura) {
-		System.out.println("NO TIENES ARMADURA!");
 	}
 	
 }

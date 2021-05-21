@@ -40,8 +40,8 @@ public class Asesino implements Rol {
 		return this.danioBasico;
 	}
 	
-	public void getNombreRol() {
-		System.out.println("Esto es un Asesino");
+	public String getNombreRol() {
+		return "Asesino";
 	}
 
 }

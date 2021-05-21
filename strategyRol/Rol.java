@@ -9,5 +9,5 @@ public interface Rol{
 	public void ataquePrimario(Enemigo a);
 	public void ataqueSecundario(Enemigo b);
 	public void ataqueEspecial(Enemigo c);
-	public void getNombreRol();
+	public String getNombreRol();
 }

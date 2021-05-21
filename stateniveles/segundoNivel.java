@@ -10,8 +10,8 @@ public class segundoNivel extends EstadoNivel {
 	
 	public void aplicarNivel() {
 		if(aplicado == false) {
-			this.niveljug.jug.setVida(300);
-			this.niveljug.jug.getRol().setDanio(this.niveljug.jug.getRol().getDanio()+10);
+			this.niveljug.jug.setVida(this.niveljug.jug.getVida()+150);
+			this.niveljug.jug.getRol().setDanio(this.niveljug.jug.getRol().getDanio()+20);
 			System.out.print("Aumento de danio ascendido: "+this.niveljug.jug.getRol().getDanio());
 			this.niveljug.jug.getRol().getNombreRol();
 			System.out.println("Vida ascendida: "+this.niveljug.jug.getVida());

@@ -59,4 +59,7 @@ public class JugadorArmOro extends Decorador {
 	public void getNombreRol() {
 		this.getRol().getNombreRol();
 	}
+	public void setRol(Rol a) {
+		this.setRol(a);
+	}
 }

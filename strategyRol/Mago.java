@@ -33,8 +33,8 @@ public class Mago implements Rol {
 	public int getPoder(){
 		return vidarobada;
 	}
-	public void getNombreRol() {
-		System.out.println("Esto es un Mago");
+	public String getNombreRol() {
+		return "Mago";
 	}
 	public int getDanio() {
 		return this.danioBasico;
